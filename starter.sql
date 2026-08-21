@@ -1,4 +1,4 @@
-create datebase selvam;
+create database selvam;
 use selvam;
 create table department(departmentID integer(10) primary key,deparmentname varchar(10),HOD varchar(10)Not Null);
 desc department;
