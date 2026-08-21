@@ -1,6 +1,6 @@
-create database selvam;
-use selvam;
-create table department(departmentID integer(10) primary key,deparmentname varchar(10),HOD varchar(10)Not Null);
+create database collegeDB;
+use collegeDB;
+create table department(departmentID INTEGER (10) primary key,deparmentname VARCHAR (10),HOD VARCHAR (10)Not Null);
 desc department;
 inster deparment values(120,"computer science","jeyanthi");
 select*from deparment;
